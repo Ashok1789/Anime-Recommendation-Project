@@ -109,7 +109,7 @@ status_bar.pack(side=tk.BOTTOM, fill=tk.X)
 model_path = r"C:\Users\ashok\OneDrive\Desktop\demo\dataset\model"
 model = AutoModelForCausalLM.from_pretrained(model_path)
 tokenizer = AutoTokenizer.from_pretrained(model_path)
-generator = pipeline("text-generation", model=model, tokenizer=tokenizer)
+generator = pipeline("Anime Recommendation Bot", model=model, tokenizer=tokenizer)
 
 root.mainloop()
 
