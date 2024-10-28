@@ -58,7 +58,7 @@ def toggle_theme():
         status_var.set("Light theme applied.")
 
 root = tk.Tk()
-root.title("Text Generation")
+root.title("Anime Recommendation Bot")
 
 menu_bar = tk.Menu(root)
 root.config(menu=menu_bar)
